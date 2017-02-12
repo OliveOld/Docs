@@ -9,14 +9,13 @@
  1. 향후 통계적인 방향으로 접근할 수 있으므로 같은 조건에 대해 약 3회정도 더 데이터를 수집할 필요가 있다.
    - Lying, Running 상태를 추가하여 값을 비교한다.
 
-
 ## 실험 내용
  - 실험일 : 2017/02/09 저녁
  - 실험 진행 : 박동하(luncliff@gmail.com)
 
 ### 실험 대상
 
-![Fig1착용](/OliveOld/Documents/blob/master/Experiment/3rd/Images/20170209_193612.jpg)
+![Fig1착용](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/Images/20170209_193612.jpg)
 
  - 견종 : 요크셔테리어
  - 나이 : 5년
@@ -45,11 +44,11 @@
 ## 실험 결과
 
 ### 결과 데이터
- - **[Excel Chart](/OliveOld/Documents/blob/master/Experiment/3rd/3rdData.xlsx)**
- - [Sit 1](/OliveOld/Documents/blob/master/Experiment/3rd/sit1.out.txt)
- - [Sit 2](/OliveOld/Documents/blob/master/Experiment/3rd/sit2.out.txt)
- - [Walk 1](/OliveOld/Documents/blob/master/Experiment/3rd/walk1.out.txt)
- - [Walk 2](/OliveOld/Documents/blob/master/Experiment/3rd/walk2.out.txt)
+ - **[Excel Chart](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/3rdData.xlsx)**
+ - [Sit 1](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/sit1.out.txt)
+ - [Sit 2](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/sit2.out.txt)
+ - [Walk 1](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/walk1.out.txt)
+ - [Walk 2](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/walk2.out.txt)
 
 ### 결과 분석
 종종 센서값의 잘못된 처리로 예상되는 값들이 확인된다. 이는 여러차례 실험을 통해 적합한 값의 범위를 추정하고, 그에 맞게 필터링을 하도록 조정해야 할 것으로 보인다.
@@ -63,7 +62,7 @@
 
 | Acc   | Gyro
 | ----- | --- 
-| ![Fig2a_Acc](/OliveOld/Documents/blob/master/Experiment/3rd/Images/Sit1.Acc.jpg) | ![Fig2b_Gyro](/OliveOld/Documents/blob/master/Experiment/3rd/Images/Sit1.Gyro.jpg)
+| ![Fig2a_Acc](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/Images/Sit1.Acc.jpg) | ![Fig2b_Gyro](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/Images/Sit1.Gyro.jpg)
 
 #### Walking
  - 가속도 X축 : 걷고 있는 경우 강아지 몸의 좌우 흔들림에 의해서 값이 변화하는 것을 확인할 수 있다.
@@ -74,7 +73,7 @@
 
 | Acc   | Gyro
 | ----- | --- 
-| ![Fig3a_Acc](/OliveOld/Documents/blob/master/Experiment/3rd/Images/Walk1.Acc.jpg) | ![Fig3b_Gyro](/OliveOld/Documents/blob/master/Experiment/3rd/Images/Walk1.Gyro.jpg)
+| ![Fig3a_Acc](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/Images/Walk1.Acc.jpg) | ![Fig3b_Gyro](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/Images/Walk1.Gyro.jpg)
 
 
 #### SMV
@@ -92,8 +91,8 @@
 
 | Sitting   | Walking
 | -----     | -----
-| ![Fig4a_Sit_SMVAcc](/OliveOld/Documents/blob/master/Experiment/3rd/Images/Sit1.SMVAcc.jpg) | ![Fig4b_Walk_SMVAcc](/OliveOld/Documents/blob/master/Experiment/3rd/Images/Walk1.SMVAcc.jpg)
-| ![Fig5a_Sit_SMVGyro](/OliveOld/Documents/blob/master/Experiment/3rd/Images/Sit1.SMVGyro.jpg) | ![Fig5b_Walk_SMVGyro](/OliveOld/Documents/blob/master/Experiment/3rd/Images/Walk1.SMVGyro.jpg)
+| ![Fig4a_Sit_SMVAcc](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/Images/Sit1.SMVAcc.jpg) | ![Fig4b_Walk_SMVAcc](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/Images/Walk1.SMVAcc.jpg)
+| ![Fig5a_Sit_SMVGyro](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/Images/Sit1.SMVGyro.jpg) | ![Fig5b_Walk_SMVGyro](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/Images/Walk1.SMVGyro.jpg)
 
 
 #### SMA 30
@@ -102,8 +101,8 @@
 
 | Sitting   | Walking
 | -----     | -----
-| ![Fig6a_Sit_SMAAcc](/OliveOld/Documents/blob/master/Experiment/3rd/Images/Sit1.SMAAcc.jpg) | ![Fig6b_Walk_SMAAcc](/OliveOld/Documents/blob/master/Experiment/3rd/Images/Walk1.SMAAcc.jpg)
-| ![Fig6a_Sit_SMAGyro](/OliveOld/Documents/blob/master/Experiment/3rd/Images/Sit1.SMAGyro.jpg) | ![Fig6b_Walk_SMAGyro](/OliveOld/Documents/blob/master/Experiment/3rd/Images/Walk1.SMAGyro.jpg)
+| ![Fig6a_Sit_SMAAcc](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/Images/Sit1.SMAAcc.jpg) | ![Fig6b_Walk_SMAAcc](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/Images/Walk1.SMAAcc.jpg)
+| ![Fig6a_Sit_SMAGyro](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/Images/Sit1.SMAGyro.jpg) | ![Fig6b_Walk_SMAGyro](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/Images/Walk1.SMAGyro.jpg)
 
 
 #### Tilt
@@ -115,7 +114,7 @@
 
 | Sitting   | Walking
 | -----     | -----
-| ![Fig7a_Tilt_Sit](/OliveOld/Documents/blob/master/Experiment/3rd/Images/Sit1.Tilt.jpg) | ![Fig7b_Tilt_Walk](/OliveOld/Documents/blob/master/Experiment/3rd/Images/Walk1.Tilt.jpg)
+| ![Fig7a_Tilt_Sit](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/Images/Sit1.Tilt.jpg) | ![Fig7b_Tilt_Walk](https://github.com/OliveOld/Documents/blob/master/Experiment/3rd/Images/Walk1.Tilt.jpg)
 
 
 ## 결론
