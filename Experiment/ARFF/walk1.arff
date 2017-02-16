@@ -1,0 +1,18 @@
+@relation .\walk1.out.txt
+
+@attribute 	ax	numeric
+@attribute 	ay	numeric
+@attribute 	az	numeric
+@attribute 	gx	numeric
+@attribute 	gy	numeric
+@attribute 	gz	numeric
+@attribute 	SMVAcc	numeric
+@attribute 	SMVGyro	numeric
+@attribute 	SMA30Acc	numeric
+@attribute 	SMA30Gyro	numeric
+@attribute 	Angle	numeric
+
+
+@data
+5.97, 3.18, 83.08, 0, 0, 0, 83.3549, 0, 3.07433, 0, 0
+
