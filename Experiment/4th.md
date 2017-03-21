@@ -33,9 +33,9 @@
 ## 실험 결과
 
 ### 결과 데이터
- - **[Excel Chart](https://github.com/OliveOld/Documents/blob/master/Experiment/4th/4thData.xlsx)**
- - [Text format](https://github.com/OliveOld/Documents/blob/master/Experiment/4th/raw/)
- - [ARFF format](https://github.com/OliveOld/Documents/blob/master/Experiment/4th/arff/)
+ - **[Excel Chart](../Experiment/4th/4thData.xlsx)**
+ - [Text format](../Experiment/4th/raw/)
+ - [ARFF format](../Experiment/4th/arff/)
 
 
 ## 결과 분석
@@ -46,8 +46,8 @@
 
 | Raw Data |
 | -------- |
-| ![Fig Idle Acc](https://github.com/OliveOld/Documents/blob/master/Experiment/4th/Images/IdleAcc.jpg) |
-| ![Fig Idle Gyro](https://github.com/OliveOld/Documents/blob/master/Experiment/4th/Images/IdleGyro.jpg) |
+| ![Fig Idle Acc](../Experiment/4th/Images/IdleAcc.jpg) |
+| ![Fig Idle Gyro](../Experiment/4th/Images/IdleGyro.jpg) |
 
 #### Acc
 안정적인 상태에서 가속도값은 거의 변화하지 않았다. 특기할만한 점은 가속도에 대한 SMA30의 값이 `[1.5,2.0]` 구간 내에서 유지된다는 점이며, 이는 다른 활동적인 패턴들도 부분적으로 벗어나는 정도로 그쳤다.
@@ -58,8 +58,8 @@
 
 | Derived Data |
 | -------- |
-| ![Fig Idle SMVGyro](https://github.com/OliveOld/Documents/blob/master/Experiment/4th/Images/IdleSMVGyro.jpg) |
-| ![Fig Idle SMAGyro](https://github.com/OliveOld/Documents/blob/master/Experiment/4th/Images/IdleSMAGyro.jpg) |
+| ![Fig Idle SMVGyro](../Experiment/4th/Images/IdleSMVGyro.jpg) |
+| ![Fig Idle SMAGyro](../Experiment/4th/Images/IdleSMAGyro.jpg) |
 
 
 ### Pattern B (Walk)
@@ -68,8 +68,8 @@ B 패턴의 특징은 A 패턴에 비해 자이로 센서의 변화가 두드러
 
 | Raw Data |
 | -------- |
-| ![Fig Walk Acc](https://github.com/OliveOld/Documents/blob/master/Experiment/4th/Images/WalkAcc.jpg) |
-| ![Fig Walk Gyro](https://github.com/OliveOld/Documents/blob/master/Experiment/4th/Images/WalkGyro.jpg) |
+| ![Fig Walk Acc](../Experiment/4th/Images/WalkAcc.jpg) |
+| ![Fig Walk Gyro](../Experiment/4th/Images/WalkGyro.jpg) |
 
 #### Acc
 걸음을 걸을 때마다 충격에 의한 변화가 확인된다. 센서 축에 따라 값의 범위가 제각각이기 때문에 가속도 센서 상에서의 변화를 감지하는 것은 SMV로 변환하여 수행해야 할 것으로 보인다.
@@ -78,8 +78,8 @@ B 패턴의 특징은 A 패턴에 비해 자이로 센서의 변화가 두드러
 
 | Derived Data |
 | -------- |
-| ![Fig Idle SMVGyro](https://github.com/OliveOld/Documents/blob/master/Experiment/4th/Images/IdleSMVGyro.jpg) |
-| ![Fig Idle SMAGyro](https://github.com/OliveOld/Documents/blob/master/Experiment/4th/Images/IdleSMAGyro.jpg) |
+| ![Fig Idle SMVGyro](../Experiment/4th/Images/IdleSMVGyro.jpg) |
+| ![Fig Idle SMAGyro](../Experiment/4th/Images/IdleSMAGyro.jpg) |
 
 자이로센서의 SMV역시 주기적인 변화를 보여 안정적인 상태에서의 패턴과 확연한 차이가 보인다. 특히 임계점을 기준으로 사용하여 강아지의 걸음횟수를 측정할 수 있을 것이라 생각된다.
 
@@ -89,8 +89,8 @@ B 패턴의 특징은 A 패턴에 비해 자이로 센서의 변화가 두드러
 
 | Raw Data |
 | -------- |
-| ![Fig Active Acc](https://github.com/OliveOld/Documents/blob/master/Experiment/4th/Images/ActiveAcc.jpg) |
-| ![Fig Active Gyro](https://github.com/OliveOld/Documents/blob/master/Experiment/4th/Images/ActiveGyro.jpg) |
+| ![Fig Active Acc](../Experiment/4th/Images/ActiveAcc.jpg) |
+| ![Fig Active Gyro](../Experiment/4th/Images/ActiveGyro.jpg) |
 
 #### Acc
 C 패턴은 수풀에서 돌아다니는 동안 측정된 것으로, 앞서 B 패턴에 비해 더 많은 값의 변화를 관측할 수 있었다. 이는 강아지의 잔걸음 수가 늘어나고 움직임이 활발해졌음을 보여준다.
@@ -100,8 +100,8 @@ C 패턴은 수풀에서 돌아다니는 동안 측정된 것으로, 앞서 B �
 
 | Derived Data |
 | -------- |
-| ![Fig Active SMVGyro](https://github.com/OliveOld/Documents/blob/master/Experiment/4th/Images/ActiveSMVGyro.jpg) |
-| ![Fig Active SMAGyro](https://github.com/OliveOld/Documents/blob/master/Experiment/4th/Images/ActiveSMAGyro.jpg) |
+| ![Fig Active SMVGyro](../Experiment/4th/Images/ActiveSMVGyro.jpg) |
+| ![Fig Active SMAGyro](../Experiment/4th/Images/ActiveSMAGyro.jpg) |
 
 
 ## 결론
